@@ -15,7 +15,7 @@ A modern, responsive dashboard for monitoring API health, built with HTML, CSS, 
 ## Installation
 
 1. **Clone or Download**:
-   - Download the `index.html` file or clone the repository containing the dashboard code.
+   - Download the `ind2.html` file or clone the repository containing the dashboard code.
 
 2. **Dependencies**:
    - The dashboard uses external libraries hosted via CDNs:
@@ -51,10 +51,6 @@ A modern, responsive dashboard for monitoring API health, built with HTML, CSS, 
    - Hover over the sidebar to expand it and access navigation links (Dashboard, API List, Server, Stats, Settings).
    - Note: Linked pages (`ind2.html`, `pages/api-list.html`, etc.) are placeholders and need to be created for full functionality.
 
-## File Structure
-- `index.html`: The main dashboard file containing HTML, CSS, and JavaScript.
-- `pages/`: Directory for additional pages (not included; create as needed for sidebar links).
-
 ## Backend Requirements
 - The dashboard expects a backend server with:
   - A `/health` endpoint returning an array of API status objects (e.g., `{ platform, status, httpStatus, responseTime, timestamp }`).
@@ -77,10 +73,7 @@ A modern, responsive dashboard for monitoring API health, built with HTML, CSS, 
 - **No Data Displayed**: Ensure the backend URL and endpoints are correct in the configuration panel. Check the browser console for errors.
 - **CORS Issues**: Host the dashboard on a web server or configure the backend to allow cross-origin requests.
 - **Chart Not Rendering**: Verify that Chart.js is loaded correctly and the browser supports Canvas.
-
-## License
-This project is provided as-is for personal or educational use. No official license is specified.
-
+  
 ## Acknowledgments
 - Built with [Font Awesome](https://fontawesome.com/) for icons.
 - Powered by [Chart.js](https://www.chartjs.org/) for data visualization.
